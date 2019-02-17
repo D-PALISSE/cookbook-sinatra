@@ -1,0 +1,22 @@
+
+h1 {
+  color: #8A0829;
+  text-align: left;
+  font-family: Marker Felt;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+}
+
+.app_div {
+  text-align: : center;
+  padding: 20px;
+  width: 700px;
+  height: 800px;
+  position: relative;
+  top: 0px;
+  left: 600px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border-radius: 50px;
+}
