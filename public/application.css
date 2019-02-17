@@ -1,3 +1,14 @@
+a:hover {
+  text-decoration:none;
+}
+
+#button-perso2:visited {
+  text-decoration:none;
+}
+
+#button-perso2:active {
+  text-decoration:none;
+}
 
 h1 {
   color: #8A0829;
@@ -6,18 +17,33 @@ h1 {
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+}
+
+#header-background {
+  background-color: rgba(0,0,0,0.2);
+}
+
+#logo-bookcook {
+  position: relative;
+  top: 10px;
 }
 
 .app_div {
-  text-align: : center;
-  padding: 10px;
+  background-color: rgba(40, 40, 40, 0.7);
   width: auto;
-  height: 700px;
+  height: 200px;
+  margin-left : 200px;
+  margin-right: 200px;
   position: relative;
-  margin: 10px;
-  background-color: rgba(220, 220, 220, 0.9);
-  border-radius: 50px;
+  top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#header-sentence {
+  color: white;
+  font-family: CircularStd-Black;
 }
 
 .logo-lewagon {
@@ -31,4 +57,17 @@ body {
   height: 150px;
   position: relative;
   left: 520px;
+  top: -5px;
 }
+
+.button-perso {
+color: red;
+font-family: 'Ubuntu', sans-serif;
+font-size: 5em;
+text-decoration:none;
+}
+
+#app_div2:hover {
+  background-color: rgba(25, 25, 25, 0.7);
+}
+
