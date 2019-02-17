@@ -1,7 +1,7 @@
 
 h1 {
   color: #8A0829;
-  text-align: left;
+  text-align: center;
   font-family: Marker Felt;
 }
 
@@ -11,12 +11,24 @@ body {
 
 .app_div {
   text-align: : center;
-  padding: 20px;
-  width: 700px;
-  height: 800px;
+  padding: 10px;
+  width: auto;
+  height: 700px;
   position: relative;
-  top: 0px;
-  left: 600px;
+  margin: 10px;
   background-color: rgba(220, 220, 220, 0.9);
   border-radius: 50px;
+}
+
+.logo-lewagon {
+  width: 300px;
+  margin: 20px;
+  position: relative;
+  left: 680px;
+}
+
+.logo-cookbook {
+  height: 150px;
+  position: relative;
+  left: 520px;
 }
