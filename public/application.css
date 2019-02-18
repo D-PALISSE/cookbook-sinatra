@@ -106,11 +106,17 @@ text-decoration:none;
 .recipes-links {
   background-color: (25, 25, 25, 0.7);
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 .recipes-links:hover {
   background-color: (100, 100, 100, 0.7);
   text-decoration: none;
   color: red;
+}
+
+.tiramisu_fraise_div {
+  height: 600px
+  width: 800px;
+  background-color: white;
 }

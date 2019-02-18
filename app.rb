@@ -18,7 +18,3 @@ end
 get '/recipes' do
   erb :recipes
 end
-
-get '/Tiramisu%20aux%20fraises%20(20%20min)' do
-  "Hello World"
-end
