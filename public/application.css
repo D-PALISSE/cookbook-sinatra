@@ -61,7 +61,7 @@ body {
 }
 
 .button-perso {
-color: #c72f2f;
+color: #de4646;
 font-family: 'Ubuntu', sans-serif;
 font-size: 5em;
 text-decoration:none;
@@ -71,3 +71,14 @@ text-decoration:none;
   background-color: rgba(25, 25, 25, 0.7);
 }
 
+.app-div-3 {
+  background-color: rgba(40, 40, 40, 0.7);
+  width: auto;
+  height: 600px;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
