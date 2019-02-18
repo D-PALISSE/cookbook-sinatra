@@ -71,8 +71,8 @@ text-decoration:none;
   background-color: rgba(25, 25, 25, 0.7);
 }
 
-.app-div-3 {
-  background-color: rgba(40, 40, 40, 0.7);
+#app-div-3 {
+  background-color: rgba(25, 25, 25, 0.7);
   width: auto;
   height: 600px;
   margin-left: 200px;
@@ -81,4 +81,36 @@ text-decoration:none;
   top: 100px;
   padding: 10px;
   border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+#my-recipes {
+  color: red;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.recipes-divs {
+  height: 30px;
+  width: 200px;
+  margin: 50px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.recipes-links {
+  background-color: (25, 25, 25, 0.7);
+  text-decoration: none;
+  color: white
+}
+
+.recipes-links:hover {
+  background-color: (100, 100, 100, 0.7);
+  text-decoration: none;
+  color: red;
 }

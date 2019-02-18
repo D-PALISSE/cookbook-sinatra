@@ -14,7 +14,7 @@
 <ul>
   <% New_cookbook.all.each do |recipe| %>
 <div class='recipes-divs'>
-  <a class='recipes-links' href='#'> <%= recipe.name %></a>
+  <a class='recipes-links' href='<%= recipe.name.strip %>'> <%= recipe.name %></a>
 </div>
 <% end %>
 </div>
